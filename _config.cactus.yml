@@ -14,9 +14,10 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  about: /about/
-  projects: /projects/
-
+  Home: /
+  About: /about/
+  Archived: /archives/
+  DevStuff: /devstuff/
 
 # Links to your social media accounts.
 # The 'icon' keys should correspond to Fontawesome icon names
@@ -49,7 +50,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 10
+  post_count: 5
   sort_updated: false
 
 # Customize the archive view.
