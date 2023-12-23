@@ -6,8 +6,9 @@ date: 2023-12-23
 
 ![TDL](/images/TDL.png)
 
-## Intro
 In this article, I want combine unit testing and Leetcode, to create a new way of solving Leetcode questions. I call it **Test Driven Leetcode** or **TDL** for short.
+
+## Intro
 
 You might have heard about [Test Driven Development(**TDD**)](https://en.wikipedia.org/wiki/Test-driven_development). It's a practice to write the test for the functionality first, before implementing it.  Some say it's stupid, while others say it's a good practice.
 
