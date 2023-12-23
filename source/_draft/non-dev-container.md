@@ -10,7 +10,7 @@ My goal with this article is to motivate you to try a new technology or maybe ev
 
 ## **The Story**
 
-One of the steps to becoming a 'DevOps Engineer' is to be comfortable with GNU/Linux. [Docker](https://www.docker.com/) is one such platform that makes accessibility to this tool easier, even in your native OS like Windows. The containerization technology as a whole solved a lot of problems. For me, it has improved the way I organise my files, programmes, and software, and overall the way I work. Less clutter (at least I experienced it).
+One of the steps to becoming a 'DevOps Engineer' is to be comfortable with GNU/Linux. [Docker](https://www.docker.com/) is one such platform that makes accessibility to this tool easier, even in your native OS like Windows. The containerization technology as a whole solved a lot of problems. For me, it has improved the way I organize my files, programs, and software, and overall the way I work. Less clutter (at least I experienced it).
 
 I liked the methodology **so much** that I formatted my Mac, and
 
@@ -34,7 +34,7 @@ Here are the minimum number of steps you would need to follow:
 This is a long, time-consuming process, especially during installation if you are on a slow laptop. Plus, it comes with some baggage:
 
 1. Track the packages you have installed.
-2. Search 'how to uninstall package X?' *( because every package has a different method and is sometimes difficult too)* and make sure there are no files left in my **limited storage** space.
+2. Search 'how to uninstall package X?' *(because every package has a different method and is sometimes difficult too)* and make sure there are no files left in my **limited storage** space.
 
 With Docker, it's as easy as:
 
@@ -55,13 +55,13 @@ Not to mention, I am doing this with just a terminal and with what is sometimes 
 
 This might be a small issue; possibly you or I will never encounter it, but now you have a package installed on your machine that can cause some dependency issues with other packages or software. That would be troublesome.
 
-The best real-life example that I can think of is in Python. `brew install python@3` and boom, I have python3 installed, but there is a programme that runs on python2. So I have to install or maybe revert back to the default `python@2`. This could be annoying. On switching the project, which uses Python 3, I run `python main.py`, and it throws an error or something because of the version difference.
+The best real-life example that I can think of is in Python. `brew install python@3` and boom, I have python3 installed, but there is a program that runs on python2. So I have to install or maybe revert to the default `python@2`. This could be annoying. On switching the project, which uses Python 3, I run `python main.py`, and it throws an error or something because of the version difference.
 
-When developing in a container, you are sandboxed into that environment. Doesn't affect anything outside of that environment. Allowing us to focus on application development and getting out of 'setting up development environments" loop.
+When developing in a container, you are sandboxed into that environment. Doesn't affect anything outside that environment. Allowing us to focus on application development and getting out of 'setting up development environments" loop.
 
 ### 3. Learning GNU/Linux
 
-I think you become a better developer once you start using Linux. This is especially true for students or newbie developers. You become better at debugging and problem solving. There are just too many benefits to having Linux in your arsenal.
+I think you become a better developer once you start using Linux. This is especially true for students or newbie developers. You become better at debugging and problem-solving. There are just too many benefits to having Linux in your arsenal.
 
 The best way to get your hands dirty is to start using it. But the question is, where do I find the dirt to play with?
 
@@ -86,10 +86,10 @@ In my opinion, Docker is the easiest to recommend because:
 Ultimately, containers were designed to solve a specific problem. As an *Indian*, I discovered ways to use it for my own purposes as well. There are or will be some downsides to using containers for the things I mentioned above.
 
 1. **No GUI interaction**: You will only be learning Linux in the shell (though that's where you will be working in production).
-2. **Bandwidth Consumption**: downloading a Docker image and running VSCode in the container consumes a lot of bandwidth. When there is no internet, even if you have an image downloaded, you can't open and run it on an IDE. But there is always a workaround. **Vim**
+2. **Bandwidth Consumption**: downloading a Docker image and running VS Code in the container consumes a lot of bandwidth. When there is no internet, even if you have an image downloaded, you can't open and run it on an IDE. But there is always a workaround. **Vim**
 3. **Processing Power**: You do need a good workstation to run Docker, especially if you are a Windows or macOS user. It consumes a significant amount of power, memory, and CPU. That's because Docker needs to run a Linux VM first.
 
-## Colclusion
+## Conclusion
 
 Docker and Linux are just tools, just like a knife and a samurai sword. You want to cut the veggies with a knife or a samurai sword; it totally depends on you. One might make you look cooler, while the other might make you more effective.
 

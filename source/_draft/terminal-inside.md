@@ -8,7 +8,7 @@ date: 2023-06-24
 
 ![You](https://media.giphy.com/media/Ve7wX45gaOFmw8eeEM/giphy.gif)
 
-must have some sort of online presence on the web. Right? It could be a GitHub account, a Leetcode profile, a place where you write blogs, or your portfolio website.
+You must have some sort of online presence on the web. Right? It could be a GitHub account, a Leetcode profile, a place where you write blogs, or your portfolio website.
 A common theme being followed here is that, they all need a web browser (*or a GUI*) to access them.
 
 For some random reason (*or to look cool*), you should have a profile for **terminal** too. Of course, it doesn’t need to be an identical replica of what’s in the browser. It could be something on its own!
@@ -60,8 +60,7 @@ I am using Docker, a very resource intensive tool to create the simple artwork. 
 
 Try: `glow -p github.com/charmbracelet/glow` (*Pretty URL*)
 
-So, if you have installed `glow` on your machine, you can render **any** raw markdown from **URL** with much **less** resources being used
-Like run `glow -p https://raw.githubusercontent.com/JammUtkarsh/blog/main/source/_posts/terminal-inside.md` (*Ugly URL*) to render this blog.
+So, if you have installed `glow` on your machine, you can render **any** raw markdown from **URL** with much **less** resources being used Like run `glow -p https://raw.githubusercontent.com/JammUtkarsh/blog/main/source/_posts/terminal-inside.md` (*Ugly URL*) to render this blog.
 
 > We are using -p flag to enable pager, which is similar to scrolling.
 
