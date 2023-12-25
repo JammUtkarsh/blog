@@ -35,7 +35,7 @@ There are many obvious(*conscious*) & subtle(*unconscious*) benefits to this tec
 
 > *Update 25/12/2023*
 > Another benefit of using TDL, is you can see the code coverage of your solution. Using the coverage info, you can either add more test cases in your code or remove the parts of code that are not covered.
-> In an interview, when the interviewer asks you, 'what happen if I remove LOC?' the code coverage will be there to save you!
+> In an interview, when the interviewer asks you, 'what happen if I remove this line of code?' the *code coverage will be there to save you*!
 
 ![Code Coverage](/images/codeCoverage.png)
 
