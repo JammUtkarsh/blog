@@ -33,6 +33,14 @@ There are many obvious(*conscious*) & subtle(*unconscious*) benefits to this tec
 
  *^2 This actually happened to me in an interview. The questions were already written in a [GitHub Code Spaces](https://github.com/features/codespaces) like environment. But he was comfortable with me solving the question locally where I used this technique, and he explicitly said 'He has never seen someone solve algorithms question using a Unit Test'.*
 
+> *Update 25/12/2023*
+> Another benefit of using TDL, is you can see the code coverage of your solution. Using the coverage info, you can either add more test cases in your code or remove the parts of code that are not covered.
+> In an interview, when the interviewer asks you, 'what happen if I remove LOC?' the code coverage will be there to save you!
+
+![Code Coverage](/images/codeCoverage.png)
+
+NOTE: Full code coverage isn't achievable for all code segments, as some are essential to preserve language syntax and preventing compilation errors.
+
 ## How to do it?
 
 So, here's how you do it. I will be using [Leetcode 509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) as an example.
